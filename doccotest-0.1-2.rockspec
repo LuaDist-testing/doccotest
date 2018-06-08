@@ -1,17 +1,17 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "doccotest"
-version = "0.1-1"
+version = "0.1-2"
 
 -- LuaDist source
 source = {
-  tag = "0.1-1",
+  tag = "0.1-2",
   url = "git://github.com/LuaDist-testing/doccotest.git"
 }
 -- Original source
 -- source = {
 --   url = "git://github.com/saucisson/lua-doccotest",
---   tag = "version-0.1-1",
+--   tag = "version-0.1-2",
 -- }
 
 description = {
