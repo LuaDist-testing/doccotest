@@ -1,17 +1,17 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "doccotest"
-version = "0.2-2"
+version = "0.3-1"
 
 -- LuaDist source
 source = {
-  tag = "0.2-2",
+  tag = "0.3-1",
   url = "git://github.com/LuaDist-testing/doccotest.git"
 }
 -- Original source
 -- source = {
 --   url = "git://github.com/saucisson/lua-doccotest",
---   tag = "0.2.2",
+--   tag = "0.3",
 -- }
 
 description = {
@@ -30,12 +30,13 @@ locco, and embeds the tests and their expected results.
 }
 
 dependencies = {
+  "ansicolors >= 1",
   "lua >= 5.1",
+  "luacov >= 0.7",
+  "lualogging >= 1",
   "lua_cliargs >= 2",
   "i18n >= 0",
-  "ansicolors >= 1",
   "rings >= 1",
-  "lualogging >= 1",
   "serpent >= 0",
 }
 
